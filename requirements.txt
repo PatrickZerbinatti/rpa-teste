@@ -1,0 +1,5 @@
+robotframework==5.0.1
+robotframework-browser==13.3.0
+playwright==1.24.0
+python-dotenv
+rpaframework
