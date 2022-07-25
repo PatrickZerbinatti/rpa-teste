@@ -91,7 +91,7 @@ E extraio o valor de cada investimento fazendo download de todos os arquivos
 
         ${promise} =    Promise To         Wait For Response
         Click    ${nextPage}
-        Sleep    3      #Gastei muito tempo procurando a melhor opcao e nao achei, tentei Wait for Request, Response...
+        Sleep    3
 
         ${pages_new}=     Get Text        ${pageXofX}
         ${evaluate}     Evaluate  "${pages_new}" != "${pages_old}"
