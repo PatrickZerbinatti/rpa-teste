@@ -7,7 +7,7 @@ Library      Browser
 Dado que eu entre no site itdashboard
     [Arguments]                ${timeout}           ${URL}              ${download}
     Set Browser Timeout        ${timeout}
-    New Browser                headless=False
+    New Browser                headless=True
     New Context                acceptDownloads=${download}
     New Page                   ${URL}
 
