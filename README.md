@@ -25,10 +25,6 @@ Ex:  **robot .\RPA\ITDASHBOARD\web_scraping.robot**
 
 O .env esta no repositorio de proposito, apenas para facilitar os testes do RPA, mas em um ambiente profissional jamais subiria no repo!
 
-Não encontrei uma boa solução para passar de pagina(Wait For Request não funciona ao chegar na ultima pagina), então utilizei Sleep mesmo sendo má pratica
-
-Ainda esta com um bug ao final da execução por algum request continuar aberto
-
 A parte de download esta longe de boa, talvez usando o botão da impressora ja existente? Talvez tirando print da pagina e colocando ela dentro de um pdf? Outra forma?
 
 </div>
