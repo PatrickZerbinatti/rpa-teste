@@ -1,4 +1,4 @@
-FROM playwright
+FROM mcr.microsoft.com/playwright:v1.27.0-focal
 
 RUN apt-get update && apt-get upgrade -y
 RUN apt-get install python 3.11
