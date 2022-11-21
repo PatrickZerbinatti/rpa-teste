@@ -5,4 +5,4 @@ RUN apt install -y build-essential libssl-dev libffi-dev python3-dev
 RUN pip install -U pip
 RUN pip install robotframework
 RUN pip install rpaframework
-RUN pip install robotframework-browse
+RUN pip install robotframework-browser
